@@ -2,8 +2,8 @@
 
 Summary:	Simple monitor config tool for LXDE
 Name:     	lxrandr
-Version:	0.1.2
-Release:	7
+Version:	0.3.2
+Release:	1
 License:	GPLv2+
 Group:		Graphical desktop/Other
 Url:		http://lxde.sourceforge.net/
@@ -22,11 +22,11 @@ quick options to get your projector working correctly.
 %setup -q
 
 %build
-%configure2_5x
-%make
+%configure
+%make_build
 
 %install
-%makeinstall_std
+%make_install
 
 %find_lang %{name}
 
