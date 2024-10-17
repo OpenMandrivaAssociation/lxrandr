@@ -12,7 +12,7 @@ Version:	0.3.2
 Release:	3
 License:	GPLv2+
 Group:		Graphical desktop/Other
-Url:		http://lxde.sourceforge.net/
+Url:		https://lxde.sourceforge.net/
 #Source0: 	http://sourceforge.net/lxde/%{name}-%{version}.tar.xz
 Source0:	https://github.com/lxde/lxrandr/archive/%{?snapshot:%{commit}}%{!?snapshot:%{version}}/%{name}-%{?snapshot:%{commit}}%{!?snapshot:%{version}}.tar.gz
 
