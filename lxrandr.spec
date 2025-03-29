@@ -1,5 +1,5 @@
 # git snapshot
-%global snapshot 1
+#global snapshot 1
 %if 0%{?snapshot}
 	%global commit		744715450dbd6d11da9e4585a093ddb55faac976
 	%global commitdate	20240823
@@ -8,8 +8,8 @@
 
 Summary:	Simple monitor config tool for LXDE
 Name:     	lxrandr
-Version:	0.3.2
-Release:	4
+Version:	0.3.3
+Release:	1
 License:	GPLv2+
 Group:		Graphical desktop/Other
 Url:		https://lxde.sourceforge.net/
