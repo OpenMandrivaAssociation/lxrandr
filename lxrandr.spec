@@ -16,6 +16,11 @@ Url:		https://lxde.sourceforge.net/
 #Source0: 	http://sourceforge.net/lxde/%{name}-%{version}.tar.xz
 Source0:	https://github.com/lxde/lxrandr/archive/%{?snapshot:%{commit}}%{!?snapshot:%{version}}/%{name}-%{?snapshot:%{commit}}%{!?snapshot:%{version}}.tar.gz
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	intltool
 BuildRequires:	pkgconfig(gtk+-3.0)
 Requires:	xrandr
